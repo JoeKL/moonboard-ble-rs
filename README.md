@@ -27,6 +27,24 @@ cargo run --bin moonboard-cycle -- MoonBoard 250
 
 The optional final argument controls the delay in milliseconds.
 
+Light all LEDs green:
+
+```sh
+cargo run --bin moonboard-green -- MoonBoard
+```
+
+Display H, E, L, L, O one letter at a time:
+
+```sh
+cargo run --bin moonboard-hello -- MoonBoard 700
+```
+
+Draw a red heart outline with its tip at `F3` / LED `105`:
+
+```sh
+cargo run --bin moonboard-heart -- MoonBoard
+```
+
 Play Snake on the 11×18 LED grid:
 
 ```sh
