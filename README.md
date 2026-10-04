@@ -80,4 +80,3 @@ assert_eq!(snake, 18);
 ```
 
 Choose the ordering and base used by your controller; the official app normally uses its downloaded `ledNumber` mapping.
-# moonboard-ble-rs
