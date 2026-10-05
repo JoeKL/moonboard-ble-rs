@@ -1,6 +1,11 @@
 # moonboard-ble
 
-Small Rust library and test sender for the MoonBoard `pixelSingle` BLE protocol recovered from app 1.3.68.
+## Why this?
+This project was a small exploration on how to leverage AI for reverse engineering. ChatGPT 5.6 Sol's task was to understand the MoonBoard LED system, by using the Ghidra MCP, apktool, and the `moonboard.apk` and implement a crude API for it in Rust. This took roughly an hour. 
+
+## What is this?
+A Small Rust library and test sender for the MoonBoard `pixelSingle` BLE protocol recovered from app 1.3.68.
+
 
 ## Run
 
@@ -26,12 +31,6 @@ cargo run --bin moonboard-cycle -- MoonBoard 250
 ```
 
 The optional final argument controls the delay in milliseconds.
-
-Light all LEDs green:
-
-```sh
-cargo run --bin moonboard-green -- MoonBoard
-```
 
 Display H, E, L, L, O one letter at a time:
 
